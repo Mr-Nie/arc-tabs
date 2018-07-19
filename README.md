@@ -6,6 +6,9 @@ A UI which can be self-defined multiply.
 
 ## 安装下载
 
+- 下载地址 https://github.com/Mr-Nie/nieui/releases
+- `npm i mrnie`
+- CDN https://unpkg.com/nieui/release/bundle.js
 
 ## 快速使用
 
