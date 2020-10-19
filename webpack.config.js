@@ -3,10 +3,15 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: './src/main.js',
+  // entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'build.js'
+    // filename: 'arc-tabs-min.js',
+    // library:'arcTabs',
+    // libraryTarget:'umd',
+    // umdNamedDefine:true
   },
   module: {
     rules: [
