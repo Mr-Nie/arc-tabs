@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <arcTabs></arcTabs>
+    <arcTabs :data="data" :unit='unit'></arcTabs>
   </div>
 </template>
 
@@ -10,6 +10,8 @@ export default {
   name: 'app',
   data () {
     return {
+      data:[1,2,3,4,5,6,7,8],
+      unit:'月'
     }
   },
   components:{
