@@ -1,18 +1,22 @@
-# code
+# arc-tabs
 
-> A Vue.js project
+> A tab component with arc animation.
 
-## Build Setup
+## install
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+```bash
+npm i arc-tabs
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Quick Start
+
+```javascript
+import Vue from "vue";
+import arcTab from "arc-tabs";
+
+Vue.use(arcTab);
+```
+
+```html
+<arc-tabs :data="[1,2,3,4,5]"></arc-tabs>
+```
